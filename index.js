@@ -74,7 +74,7 @@ class CardsFilter
             return true;
         });
 
-        mod.hook("S_CALA_QUARANTA", 99, ev =>
+        mod.hook("TTB_S_PLAYER_CARD_DATA", 99, ev =>
         {
             if (!mod.game.me.is(ev.gameId)) return;
             fullCards.splice(0, fullCards.length);
