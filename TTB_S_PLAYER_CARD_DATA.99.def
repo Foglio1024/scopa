@@ -1,0 +1,19 @@
+ref cards
+ref equippedCards
+ref unlockedRewards
+ref name # ?
+
+int64 gameId
+int32 unlockedPresets
+int32 activePreset
+int32 collectionLevel
+int32 collectionExp
+string name
+
+array cards
+- int32 id
+- int32 ownedAmount
+
+array<int32> equippedCards
+
+array<int32> unlockedRewards

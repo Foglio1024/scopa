@@ -1,0 +1,13 @@
+{
+	"servers": ["https://raw.githubusercontent.com/Foglio1024/scopa/master/"],
+	"name": "scopa",
+	"author": "Foglio",
+	"disableAutoUpdate": false,
+    "options": {
+		"settingsFile": "config.json",
+		"settingsMigrator": "setting_migrator.js",
+        "cliName": "scopa",
+        "guiName": "Scopa",
+		"settingsVersion": 1
+    }
+}
